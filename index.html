@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Cat House</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-white text-center py-5" style="background: #f1e5e5;">
+        <h1 class="pb-3">Welcome to Cat House</h1>
+        <h3>We all love cats here</h3>
+    </header>
+
+    <!-- Main Content with Sidebar -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-md-3 mb-4">
+                <div class="p-3 bg-light rounded shadow">
+                    <h4 class="text-center">Cat Topics</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Cat Breeds</a></li>
+                        <li><a href="#" class="text-decoration-none">Cat Grooming Tips</a></li>
+                        <li><a href="#" class="text-decoration-none">Healthy Cat Diet</a></li>
+                        <li><a href="#" class="text-decoration-none">Famous Cats in History</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9">
+                <h2>About Cat House</h2>
+                <p>
+                    Cat House is the ultimate destination for cat enthusiasts. We bring you the latest insights, tips, and resources for taking care of your feline companions. Whether you're a seasoned cat owner or planning to adopt your first kitten, you'll find everything you need here.
+                </p>
+                <p>
+                    Check out our detailed guides on cat breeds, grooming, health tips, and more. Join our community to share your cat stories and connect with other cat lovers.
+                </p>
+            </main>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/imgs/cat_1.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/cat_7.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/cat_8.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/cat_2.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#mainCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#mainCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Cat House. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
